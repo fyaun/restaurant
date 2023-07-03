@@ -50,9 +50,7 @@ a {
 body{
 font-family: 'Playfair Display', serif;
 }
-body.is-active{
-  overflow: hidden;
-}
+
 
 
 
@@ -298,8 +296,7 @@ background:#4d4d4d;
 
 .drawer-content {
     position: absolute;
-    top: 0%;
-    left: 120%;
+    top: -150%;
     background-image: url(../img/drawer-bg.jpg);
     background-position: 24% center;
     background-size: cover;
