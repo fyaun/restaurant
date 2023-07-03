@@ -1067,7 +1067,7 @@ footer {
     width: 100%;
   }
   30% {
-    width: 10%;
+    width: 25%;
   }
   40% {
     width: 50%;
@@ -1079,13 +1079,13 @@ footer {
     width: 50%;
   }
   70% {
-    width: 10%;
+    width: 25%;
   }
   80% {
     width: 100%;
   }
   90% {
-    width: 10%;
+    width: 25%;
   }
   100% {
     width: 70%;
