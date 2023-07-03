@@ -156,14 +156,7 @@ background:#4d4d4d;
   background: rgb(88, 202, 176);
 }
 
-@media (max-width: 767px) {
 
-
-
-
-
-
-}
 
 /*==========================================================================
 # header
@@ -388,6 +381,10 @@ background:#4d4d4d;
   .drawer-inner-item{
     top: 20%;
 
+}
+
+.drawer-inner-item li a{
+  font-size: 16px;
 }
 
 }
