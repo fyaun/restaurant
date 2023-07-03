@@ -55,6 +55,7 @@ body.is-active{
 }
 
 
+
 .section-title {
   position: absolute;
   top: 10%;
@@ -556,7 +557,7 @@ position: relative;
 
   .section-contents {
     position: relative;
-    /* height: 100%; */
+    height: 800px;
 
 
 
