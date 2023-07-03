@@ -298,8 +298,8 @@ background:#4d4d4d;
 
 .drawer-content {
     position: absolute;
-    top: -150%;
-    left: 0%;
+    top: 0%;
+    left: 120%;
     background-image: url(../img/drawer-bg.jpg);
     background-position: 24% center;
     background-size: cover;
@@ -316,6 +316,7 @@ background:#4d4d4d;
 .drawer-content.is-active {
     display: block;
     top: 0%;
+    left: 0;
 }
 .drawer-content::before {
     content: '';
