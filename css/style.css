@@ -999,7 +999,102 @@ footer {
 
 
 
+/*==================
+#loading
+==================*/
 
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  background: #f4f4f4;
+}
+#loading_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+.loading-one {
+  display: inline-block;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+.loading-one p.loading-txt {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0.25em;
+  line-height: 2.0;
+  padding: 2em 0;
+}
+
+.loading-txt{
+  font-size: 26px !important;
+  font-style: italic;
+  letter-spacing: .1em;
+  color: rgb(88, 202, 176) !important;
+  text-shadow: -3px 2px 0 #000;
+
+}
+.loading-txt span{
+  font-size: 16px !important;
+  font-style: italic;
+  letter-spacing: .1em;
+  color: rgb(88, 202, 176) !important;
+  text-shadow: -3px 2px 0 #000;
+  display: block;
+  text-align: center;
+}
+
+/*==================
+.animation_loading
+==================*/
+
+.animation_loading {
+  animation: equalizer_loading 7000ms infinite;
+  animation-iteration-count: 10;
+}
+@keyframes equalizer_loading {
+  0% {
+    width: 70%;
+  }
+  10% {
+    width: 50%;
+  }
+  20% {
+    width: 100%;
+  }
+  30% {
+    width: 10%;
+  }
+  40% {
+    width: 50%;
+  }
+  50% {
+    width: 70%;
+  }
+  60% {
+    width: 50%;
+  }
+  70% {
+    width: 10%;
+  }
+  80% {
+    width: 100%;
+  }
+  90% {
+    width: 10%;
+  }
+  100% {
+    width: 70%;
+  }
+}
 
 
 /*==================================================
